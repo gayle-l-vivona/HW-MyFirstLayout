@@ -3,30 +3,60 @@
     <head>
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <title>MyFirstLayout</title>
+        <style>
+            .flex-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                         
+            }
+
+            .flex-container > div {
+        
+                margin: 50px;
+                padding: 15px;
+                font-size: 30px;
+                border-radius: 25px 25px 25px 25px;
+            
+            }
+        
+        </style>
        
     </head>
     
     <body>
-     <img src="css/images/Gayle_LHH photo June 2018_A_crop.JPG" alt=" Picture of Me" width="200" height="215">
+        <h1>Gayle Vivona</h1>
+     <img src="css/images/Gayle_LHH photo June 2018_A_crop.JPG" alt=" Picture of Me" width="200" height="215" class="center" border="5">
      <div>
-        <h1>Why UX-UI?</h1>
-            <p>Web design is fascinating.</p>
-            <p>Wouldn't it be nice to finally put that art degree to work?</p>
+        <h2>Why UX-UI?</h2>
+            
+                <p>I love color and enjoy designing.</p>
+                <p>Providing a good user experience is fulfilling.</p>
+                <p>Wouldn't it be nice to finally put that art degree to work?</p>
+            
      </div>
     <section>
-        <h1>Fun Facts</h1>
+        <h2>Fun Facts</h2>
             <ul>
-                <li>I used Visio to create cross-stitch designs, because it was on my work laptop 
-                    <br>and I knew how to use it. Visio makes it easy to save patterns and templates, 
-                    <br>but it's difficult to get accurate colors.</li>
+                <li>Visio can be used to create cross-stitch designs, better than many programs 
+                    that are made for cross-stitch designing, <br>because it's easy to create and 
+                    save templates. The main drawback is there is no way to match Visio colors
+                    with thread <br>colors. It's really impossible to show variegated colors.
+                </li>
                     <br>
                 <li>Years ago, I served dinner to former president Gerald Ford at the Claremont
-                    <br>Hotel in Oakland. I was informed, that as his waiter, it was my responsibility 
-                    <br>to taste his food before serving him. Not willing to risk my life, I asked Mr. 
-                    <br>Ford. He laughed and said it wasn't necessary. Darn, that steak looked good!
+                    Hotel in Oakland. I was informed, that as<br> his waiter, it was my responsibility 
+                    to taste his food before serving him. Not willing to risk my life, I asked Mr.
+                    Ford. <br>He laughed and said it wasn't necessary. Darn, that steak looked good!
                      </li>
             </ul>
      </section>
+        <div class="flex-container">
+            <div><img src="css/images/A_2018_Family.jpg" alt="My Family" width="260" height="200" border-radius="25px 25px 25px 25px"></div>
+            <div><img src="css/images/B_Daisy.jpg" alt="Daisy, a silver Labrador" width="180" height="200"></div>
+            <div><img src="css/images/C_120_Western_X-stitch saddle blanket_Brown 4 Skulls_B.JPG" alt="120_brown 4 Skull Western saddle blanket" width="200" height="200"></div>
+
+        </div>
     </body>
 
 
